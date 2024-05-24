@@ -37,4 +37,4 @@ This function adjusts the lightness component of an HSL color value to make it m
 
 ## handleDisplayColorLabel function: 
 
-This function is responsible for displaying the color label in the UI. It calls handleCreateHsl to obtain the HSL color value, then renders an <h1> element with the color label text (including the color type and value) and applies inline styling to set the color of the text to the computed HSL color value.
+This function is responsible for displaying the color label in the UI. It calls handleCreateHsl to obtain the HSL color value, then renders the color label text (including the color type and value) and applies inline styling to set the color of the text to the computed HSL color value.
