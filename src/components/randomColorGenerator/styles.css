@@ -32,3 +32,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.color-label {
+    font-size: 70px;
+    margin-top: 200px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 700px) {
+    .color-label {
+        font-size: 40px;
+    }
+}
